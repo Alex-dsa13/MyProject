@@ -1,0 +1,14 @@
+﻿<Window x:Class="SokBotApp.CheckConnectWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SokBotApp"
+        mc:Ignorable="d"
+        Title="SokApp" Height="250" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="/Icon.png">
+    <Grid>
+        <Label x:Name="isConnectLabel" HorizontalAlignment="Center" Margin="0, 30" FontSize="18" FontWeight="Regular"></Label>
+        <TextBlock x:Name="isConnectTextBlock" HorizontalAlignment="Center" Margin="0, 70"  TextWrapping="Wrap" FontSize="14" FontWeight="Light">ffff</TextBlock>
+        <Button IsDefault="True" Width="90" Height="30" Click="btn_clicked" Margin="50,50,50,50" VerticalAlignment="Bottom">Ok</Button>
+    </Grid>
+</Window>

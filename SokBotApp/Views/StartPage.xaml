@@ -1,0 +1,16 @@
+﻿<Page x:Class="SokBotApp.Views.StartPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SokBotApp.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="StartPage">
+
+    <Grid>
+        <Label Content="Start"/>
+        <Label x:Name="version" Margin="0,50" FontSize="20" FontWeight="Bold"></Label>
+        <Button x:Name="UpdateButton" Click="UpdateButton_Click" Background="#62A4EF" Width="150" Height="30" Margin="100,50,0,0" Cursor="Hand" Foreground="White" BorderBrush="#62A4EF">Обновить программу</Button>
+    </Grid>
+</Page>

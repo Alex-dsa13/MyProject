@@ -1,0 +1,7 @@
+F:\SokBotApp v1.1\SokBotApp.pdb
+F:\SokBotApp v1.1\D3DCompiler_47_cor3.dll
+F:\SokBotApp v1.1\PenImc_cor3.dll
+F:\SokBotApp v1.1\PresentationNative_cor3.dll
+F:\SokBotApp v1.1\vcruntime140_cor3.dll
+F:\SokBotApp v1.1\wpfgfx_cor3.dll
+F:\SokBotApp v1.1\SokBotApp.exe
